@@ -11,7 +11,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <org.webrtc.SurfaceViewRenderer
+            <com.myhexaville.androidwebrtc.app_rtc_sample.web_rtc.SurfaceViewRenderer
                 android:id="@+id/remote_video_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
@@ -22,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <org.webrtc.SurfaceViewRenderer
+            <com.myhexaville.androidwebrtc.app_rtc_sample.web_rtc.SurfaceViewRenderer
                 android:id="@+id/local_video_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\Dev\\AndroidStudioProjects\\Android-WebRtc\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sample_camera_render.xml",
+        "source": "D:\\Dev\\AndroidStudioProjects\\Android-WebRtc\\app\\src\\main\\res\\layout\\activity_sample_camera_render.xml"
+    },
+    {
+        "merged": "D:\\Dev\\AndroidStudioProjects\\Android-WebRtc\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_call.xml",
+        "source": "D:\\Dev\\AndroidStudioProjects\\Android-WebRtc\\app\\src\\main\\res\\layout\\activity_call.xml"
+    },
+    {
+        "merged": "D:\\Dev\\AndroidStudioProjects\\Android-WebRtc\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sample_data_channel.xml",
+        "source": "D:\\Dev\\AndroidStudioProjects\\Android-WebRtc\\app\\src\\main\\res\\layout\\activity_sample_data_channel.xml"
+    },
+    {
+        "merged": "D:\\Dev\\AndroidStudioProjects\\Android-WebRtc\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sample_peer_connection.xml",
+        "source": "D:\\Dev\\AndroidStudioProjects\\Android-WebRtc\\app\\src\\main\\res\\layout\\activity_sample_peer_connection.xml"
+    },
+    {
+        "merged": "D:\\Dev\\AndroidStudioProjects\\Android-WebRtc\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\Dev\\AndroidStudioProjects\\Android-WebRtc\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

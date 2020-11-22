@@ -13,6 +13,7 @@ package com.myhexaville.androidwebrtc.app_rtc_sample.call;
 import android.app.AlertDialog;
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
+import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -21,6 +22,7 @@ import android.view.WindowManager.LayoutParams;
 import android.widget.Toast;
 
 import com.myhexaville.androidwebrtc.R;
+import com.myhexaville.androidwebrtc.app_rtc_sample.web_rtc.EglRenderer;
 import com.myhexaville.androidwebrtc.databinding.ActivityCallBinding;
 import com.myhexaville.androidwebrtc.app_rtc_sample.web_rtc.AppRTCAudioManager;
 import com.myhexaville.androidwebrtc.app_rtc_sample.web_rtc.AppRTCClient;
@@ -221,6 +223,13 @@ public class CallActivity extends AppCompatActivity
         if (peerConnectionClient != null) {
             peerConnectionClient.startVideoSource();
         }
+
+        binding.remoteVideoView.addFrameListener(new EglRenderer.FrameListener() {
+            @Override
+            public void onFrame(Bitmap var1) {
+                System.out.println("성공");
+            }
+        }, 1);
     }
 
     @Override
@@ -584,4 +593,5 @@ public class CallActivity extends AppCompatActivity
     public void onPeerConnectionError(final String description) {
         reportError(description);
     }
+
 }
